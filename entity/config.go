@@ -20,6 +20,7 @@ type Config struct {
 	Webhook
 	S3Config
 	EncryptKey string // 加密的key
+	Verify
 }
 
 // ConfigCache ConfigCache

@@ -5,3 +5,7 @@ type User struct {
 	Username string
 	Password string
 }
+
+type Verify struct {
+	Url string
+}
